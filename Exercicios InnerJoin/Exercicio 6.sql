@@ -46,6 +46,7 @@ SELECT * FROM tb_cursos INNER JOIN tb_categorias
 ON tb_categorias.id = tb_cursos.categoria_id;
 
 SELECT * FROM tb_cursos INNER JOIN tb_categorias
-ON tb_categorias.id = tb_cursos.categoria_id WHERE nome_prof LIKE "Nélio Alves";
+ON tb_categorias.id = tb_cursos.categoria_id WHERE categoria_id LIKE 1;
+
 
 
